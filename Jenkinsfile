@@ -3,7 +3,7 @@ pipeline {
       label "jenkins-maven"
     }
     environment {
-      ORG               = 'jstrachan'
+      ORG               = 'jenkinsx-dev'
       APP_NAME          = 'demo114'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
